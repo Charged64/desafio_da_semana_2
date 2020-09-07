@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+   
+    color: rgb(0, 0, 0);
+    height: 11%;
+    width: 100%;
+    position: absolute;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 20px 20px 20px 20px;
+    text-decoration-style: solid;
+}
+li:hover{
+    background-color: rgb(255, 153, 0);
+}
+#logo{
+    width: 170px;
+    position: absolute;
+    margin-left: 3%;
+}
+#imagem-fundo{
+    background: url(Imagens/lakerain-snake-b-8CyzvGWM4-unsplash.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    padding-top: 15%;
+}
+#subtitulo{
+    color: white;
+}
+#botao{
+    color: white;
+    border: 4px white solid;
+    padding: 10px 10px 10px 10px ;
+}
+.foto{
+    width: 100%;
+}
+#mundo{
+    padding: 2%;
+    width: 100%;
+    
+}
+#ods, #poluicao{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    clear: both;
+}
+.section{
+    padding: 20px;
+    float: left;
+}
+.coluna{
+    float: left;
+    padding: 0 5px;
+    position: relative;
+    width: 45%;
+    
+}
+.justificado{
+    text-align: justify;
+    padding: 0 0 0 10%;
+    clear: both;
+}
+.enunciado{
+    padding: 0 0 0 10%;
+    text-align: center;
+    clear: both;
+}
+.dois{
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+#sustentavel{
+    width: 65%;
+    margin-top: 5%;
+}
+ .pequeno{
+     width: 25%;
+     float: left;
+     padding: 0 5%; 
+     position: relative;
+
+ }
+.eolica{
+    width: 15%;
+    float: left;
+    padding: 0 5%; 
+    position: relative;
+}
+footer{
+    background-color: rgb(255, 166, 0);
+    float: left;
+    width: 100%;
+}
